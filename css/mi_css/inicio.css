@@ -1,0 +1,241 @@
+body
+{
+    background-image: url(../../img/Black-bricks-wall_1920x1080.jpg);
+}
+
+/*Carrusel*/
+.carrusel
+{
+    height: 250px;
+    background-color: #bcb7b741;
+}
+
+/*Quienes somos*/
+.presentacion
+{
+    
+    height: 142px;
+    max-height: 142px;
+    background-color: #8B0006;
+}
+
+.info_pre
+{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.info_pre_1
+{
+    font-size: 25pt;
+    text-align: justify;
+    color: #fff;
+}
+
+.div_p1
+{
+    margin-top: 32px;
+}
+
+.info_pre_2
+{
+    font-size: 13pt;
+    text-align: justify;
+    color: #fff;
+}
+
+.div_p2
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+/*Fotos*/
+.div_fotos
+{
+    margin-top: 30px;
+}
+
+.cuatro_im
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    max-width: 300px;
+    max-height: 174px;
+}
+
+.imagenes_cuat
+{
+    margin-left: -12px;
+    max-width: 300px;
+    max-height: 174px;
+}
+
+.imagenes_cuat:hover
+{
+    margin-left: -12px;
+    max-width: 300px;
+    max-height: 174px;
+    filter: sepia(90%);
+    filter: contrast(60%);
+}
+
+/*Mapa*/
+.div_mapa
+{
+    margin-top: 30px;
+}
+
+.texto_mapa
+{
+    color: #fff;
+    font-size: 25pt;
+    max-height: 50px;
+    background-color: #8B0006;
+}
+
+.contenedor_mapa
+{
+    margin-top: -16px;
+    margin-bottom: -6px;
+}
+
+.mapa
+{
+    width: 100%;
+    height: 210px;
+}
+
+/*Productos*/
+.productos
+{
+    background-color: #272D33;
+    margin-top: 30px;
+    padding: 20px;
+    color: #fff;
+}
+
+.np
+{
+    font-size: 25pt;
+}
+
+.categorias
+{
+    margin-top: 20px;
+}
+
+.icono_cat
+{
+    max-width: 76px;
+    max-height: 76px;
+}
+
+.t_cat
+{
+    color: #fff;
+}
+
+/*Servicios*/
+.servicios
+{
+    margin-top: 30px;
+}
+
+.texto_servicios
+{
+    color: #fff;
+    font-size: 25pt;
+    max-height: 50px;
+    background-color: #8B0006;
+}
+
+.fondo_servicios
+{
+    background-color: #fff;
+}
+
+.mensaje_servicios
+{
+    font-size: 14pt;
+}
+
+.botones_servicios
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boton_electri
+{
+    background-color: #EBEBEB;
+    color: #ecb02d;
+    border-color: #ecb02d;
+    border-width: 3px;
+    font-size: 14pt;
+}
+
+.boton_electri:hover
+{
+    background-color: #ecb02d;
+    color: #fff;
+    border-color: #ecb02d;
+    border-width: 3px;
+    font-size: 14pt;
+}
+
+.boton_fonta
+{
+    background-color: #EBEBEB;
+    color: #010059;
+    border-color: #010059;
+    border-width: 3px;
+    font-size: 14pt;
+}
+
+.boton_fonta:hover
+{
+    background-color: #010059;
+    color: #fff;
+    border-color: #010059;
+    border-width: 3px;
+    font-size: 14pt;
+}
+
+.boton_cons
+{
+    background-color: #EBEBEB;
+    color: #C7000D;
+    border-color: #C7000D;
+    border-width: 3px;
+    font-size: 14pt;
+}
+
+.boton_cons:hover
+{
+    background-color: #C7000D;
+    color: #fff;
+    border-color: #C7000D;
+    border-width: 3px;
+    font-size: 14pt;
+}
+
+.boton_carp
+{
+    background-color: #EBEBEB;
+    color: #E74228;
+    border-color: #E74228;
+    border-width: 3px;
+    font-size: 14pt;
+}
+
+.boton_carp:hover
+{
+    background-color: #E74228;
+    color: #fff;
+    border-color: #E74228;
+    border-width: 3px;
+    font-size: 14pt;
+}

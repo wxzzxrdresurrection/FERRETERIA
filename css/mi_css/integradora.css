@@ -1,0 +1,190 @@
+body
+{
+    background-color: #ffffff;
+}
+
+/*-----------------------------------------------------*\
+                        Header Alto
+\*-----------------------------------------------------*/
+/*Imagen Logo*/
+header
+{
+    min-height: 49.8px;
+    background-color: #8B0006;
+}
+
+.logo
+{
+    background-color: white;
+    margin-top: 10px;
+}
+
+
+/*Barra de Navegacion*/
+.buscar
+{
+    margin-top: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.selec_categoria
+{
+    background-color: #98989A;
+    color: #fff;
+}
+
+.b-buscar
+{
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*Login*/
+.boton-login
+{
+    margin-top: 9px;
+    width: 130px;
+    height: 36.19px;
+    padding: 0%;
+    color: #fff;
+    display: flex;
+}
+
+.texto-boton-login
+{
+    margin-top: 3px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8pt;
+}
+
+
+
+/*-----------------------------------------------------*\
+                        Header Bajo
+\*-----------------------------------------------------*/
+.barra
+{
+    height: 31px;
+    background-color: #8B0006;
+}
+
+.boton-bb
+{
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.boton-bb-dos
+{
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.boton-a-bb
+{
+    padding: 0%;
+    width: auto;
+    height: 35px;
+}
+
+.organizar
+{
+    display: flex;
+}
+
+.texto-botones-bb
+{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    color: #fff;
+}
+
+.prueba
+{
+    display: flex;
+}
+
+
+
+/*-----------------------------------------------------*\
+                        Carrusel
+\*-----------------------------------------------------*/
+.anuncio
+{
+    width: auto;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.carusel
+{
+    width: auto;
+    height: 350px;
+}
+
+
+
+/*-----------------------------------------------------*\
+                        Contenedor
+\*-----------------------------------------------------*/
+.contenedor
+{
+    padding: 0%;        
+}
+
+/*Mensaje Presentacion*/
+.fondo
+{
+    
+    background-color: #8B0006;
+    width: 1320px;
+    height: 200px;
+}
+
+.cont_titulo
+{
+
+}
+
+.titulo
+{
+    font-size: 25pt;
+}
+
+.cont_infot
+{
+
+}
+
+.cont_infot
+{
+    text-align: justify;
+}
+
+
+
+.cuadro-presentacion
+{
+    margin-top: 10px;
+    background-color: red;
+}
+
+
+/*Prueba Cuadro*/
+.prueba_cuadro
+{
+    margin-top: 10px;
+    width: 1320px;
+    background-color: #8B0006;
+}

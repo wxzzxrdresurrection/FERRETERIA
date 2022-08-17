@@ -1,0 +1,234 @@
+/*-----------------------------------------------------*\
+                        Header Alto
+\*-----------------------------------------------------*/
+.barra_arriba
+{
+    max-height: 49.8px;
+    background-color: #8B0006;
+}
+
+
+/*Imagen Logo*/
+.logo
+{
+    background-color: white;
+    margin-top: 5px;
+    max-width: 141.61px;
+    max-height: 34.62px;
+}
+
+
+/*Barra de Navegacion*/
+.buscar
+{
+    margin-top: 4px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.selec_categoria
+{
+    background-color: #C7000D;
+    color: #fff;
+    max-width: 130px;
+}
+
+.selec_categoria:hover
+{
+    background-color: #272D33;
+    color: #fff;
+    max-width: 130px;
+}
+
+option
+{
+    background-color: #fff;
+    color: black;
+}
+
+.b-buscar
+{
+    background-color: #fff;
+}
+
+.b-buscar:hover
+{
+    background-color: #272D33;
+    color: #fff;
+}
+
+/*Login*/
+.link_cuenta
+{
+    text-decoration: none;
+}
+
+.boton-login
+{
+    margin-top: 5px;
+    width: 130px;
+    height: 36.19px;
+    padding: 0%;
+    color: #fff;
+    display: flex;
+    border: none;
+}
+
+.texto-boton-login
+{
+    margin-top: 1px;
+    margin-left: 8px;
+}
+
+.texto-boton-login-no-iniciado
+{
+    margin-top: 3.5px;
+    margin-left: 8px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8pt;
+}
+
+.texto-boton-login_saludo
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8pt;
+    margin-bottom: -5px;
+}
+
+.texto-boton-login_iniciado
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+}
+
+.boton-login:hover
+{
+    color: #fff;
+    border: none;
+}
+
+.icono_boton
+{
+    max-width: 36.19px;
+    max-height: 36.19px;
+}
+
+
+
+/*-----------------------------------------------------*\
+                        Header Bajo
+\*-----------------------------------------------------*/
+.barra
+{
+    height: 31px;
+    background-color: #8B0006;
+}
+
+.boton-bb
+{
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.boton-a-bb
+{
+    padding: 0%;
+    width: auto;
+    height: 35px;
+    border-width: 0px;
+}
+
+.boton-a-bb:hover
+{
+    padding: 0%;
+    width: auto;
+    height: 35px;
+    border-width: 0px;
+}
+
+.organizar
+{
+    display: flex;
+}
+
+.texto-botones-bb
+{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    color: #fff;
+}
+
+.icono
+{
+    max-width: 25px;
+    max-height: 25px;
+}
+
+
+
+/*-----------------------------------------------------*\
+                            Modal
+\*-----------------------------------------------------*/
+.m_h_i
+{
+    background-color: #8B0006;
+    color: #fff;
+}
+
+.t_modal_i
+{
+    font-size: 14pt;
+}
+
+.m_c_i
+{
+    font-size: 12pt;
+}
+
+.in_m_i
+{
+    font-size: 12pt;
+}
+
+.link_modal_i
+{
+    font-size: 10pt;
+}
+
+.label
+{
+    margin-bottom: 10px;
+}
+
+.boton_i_s
+{
+    border-color: #E74228;
+    border-width: 2px;
+    color: #E74228;
+}
+
+.boton_i_s:hover
+{
+    border-color: #E74228;
+    border-width: 2px;
+    background-color: #E74228;
+    color: #fff;
+}
+
+.p_c_c
+{
+    font-size: 10pt ;
+}
+
+#ayuda_email
+{
+    font-size: 10pt;
+}

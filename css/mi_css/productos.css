@@ -1,0 +1,144 @@
+/*Mi CSS*/
+.container
+{
+    margin-top: 20px;
+    min-height: 500px;
+}
+
+.hrs
+{
+    margin: 0%;
+    margin-top: 10px;
+}
+
+.titulos
+{
+    font-size: 16pt;
+}
+
+.select_filtros
+{
+    margin: 0%;
+    margin-top: 3.5px;
+    margin-bottom: -2px;
+    margin-left: -15px;
+    max-height: 30px;
+}
+
+.imagenes_productos
+{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.categoria_producto
+{
+    margin-top: 5px;
+    font-size: 12pt;
+    color: #0254EB;
+}
+
+.nombre_producto
+{
+    font-size: 10pt;
+}
+
+.informacion_producto
+{
+    font-size: 9pt;
+}
+
+.unidades_producto
+{
+    margin-top: 5pt;
+    color: green;
+}
+
+/*no funciona por el momento*/
+.unidades_producto_negativo
+{
+    margin-top: 5pt;
+    color: red;
+}
+
+.precio_producto
+{
+    font-size: 14pt;
+}
+
+.agregar_carrito
+{
+    margin-top: 5px;
+    border-color: #E74228;
+    border-width: 2px;
+    color: #E74228;
+    font-size: 11.8pt;
+}
+
+.agregar_carrito:hover
+{
+    margin-top: 5px;
+    border-color: #E74228;
+    background-color: #E74228;
+    border-width: 2px;
+    color: #fff;
+    font-size: 11.8pt;
+}
+
+/*Modal*/
+.header_modal_productos
+{
+    background-color: #8B0006;
+    color: #fff;
+}
+
+.titulo_modal
+{
+    font-size: 15pt;
+}
+
+.imagen_producto_modal
+{
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.categoria_producto_modal
+{
+    margin-top: 10px;
+    color: #0254EB;
+    font-size: 14pt;
+}
+
+.nombre_producto_modal
+{
+    font-size: 12pt;
+}
+
+.precio_producto_modal
+{
+    margin-top: 10px;
+    font-size: 14pt;
+}
+
+.descripcion_producto_modal
+{
+font-size: 12pt;
+}
+
+
+
+/*Pagina Productos No Encontrados*/
+.lupa
+{
+    max-width: 150px;
+    max-height: 150px;
+    filter: opacity(40%);
+}
+
+.mensaje_no_encontrado
+{
+    color: #999;
+    font-size: 14pt ;
+}
+

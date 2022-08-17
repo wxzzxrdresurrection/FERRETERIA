@@ -1,0 +1,41 @@
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+  
+
+
+  .divisor {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .nav
+  {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+h1{
+    font-size: 50px;
+
+}
+.icono {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.divisor2 {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 30vh;
+}
+.statico
+{
+    position: sticky;
+    top: 0; 
+}
+

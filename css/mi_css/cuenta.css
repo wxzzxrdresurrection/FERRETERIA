@@ -1,0 +1,67 @@
+.container
+{
+    margin-top: 20px;
+}
+
+.mensaje_arriba
+{
+    font-size: 19.8pt;
+}
+
+.barras_mensaje
+{
+    margin-top: 5px;
+}
+
+.cont_form
+{
+    padding: 10px;
+}
+
+.label_form
+{
+    margin-bottom: 10px;
+}
+
+.texto_label
+{
+    font-size: 14pt;
+}
+
+.boton_guardar
+{
+    margin-top: 25px;
+}
+
+.boton_guardar_dos
+{
+    margin-top: 30px;
+}
+
+.texto_boton_guardar
+{
+    font-size: 14pt;
+    border-width: 2px;
+    border-color: #E74228;
+    color: #E74228;
+}
+
+.texto_boton_guardar:hover
+{
+    font-size: 14pt;
+    border-width: 2px;
+    border-color: #E74228;
+    background-color: #E74228;
+    color: #fff;
+}
+
+.fila_2
+{
+    margin-top: 30px;
+}
+
+.cont_tel_btn
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}

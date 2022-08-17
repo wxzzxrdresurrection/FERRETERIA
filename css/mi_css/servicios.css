@@ -1,0 +1,52 @@
+.container
+{
+    margin-top: 20px;
+    min-height: 500px;
+}
+
+.mensaje_arriba
+{
+    font-size: 19.8pt;
+}
+
+.barras_mensaje
+{
+    margin-top: 5px;
+}
+
+.barra_arriba_servicios
+{
+    padding-bottom: 10px;
+}
+
+.nom_info_serv
+{
+    font-size: 15pt;
+}
+
+.lista_servicios
+{
+    max-width: 200px;
+}
+
+.servicios
+{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.titulo_servicios_cat
+{
+    font-size: 13pt;
+    color: #0254EB;
+}
+
+.titulo_servicios
+{
+    font-size: 13pt;
+}
+
+.descripcion
+{
+    margin-top: 20px;
+}

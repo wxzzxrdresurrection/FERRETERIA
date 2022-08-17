@@ -1,0 +1,224 @@
+/*Mi parte*/
+.container
+{
+    margin-top: 20px;
+}
+
+.mensaje_arriba
+{
+    font-size: 19.8pt;
+}
+
+.barras_mensaje
+{
+    margin-top: 5px;
+}
+
+.contenedor_carrito
+{
+    background-color: #EBEBEB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fondo_info_detalles
+{
+    background-color: #fff;
+    min-height: 421px;
+}
+
+.cuadros_detalles
+{
+    margin-bottom: 15px;
+}
+
+.cuadro_header
+{
+    font-size: 15pt;
+    color: #fff;
+    background-color: #8B0006;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.productos
+{
+    background-color: #fff;
+    margin: 10px;
+}
+
+.imagen_productos
+{
+    max-width: 80px;
+    max-height: 80px;
+    margin-left: -12px;
+}
+
+.info_producto_carrito
+{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.nombre_producto
+{
+    font-size: 14pt;
+}
+
+.barra_baja
+{
+    margin-top: 8px;
+}
+
+.precio_total
+{
+    font-size: 13pt;
+}
+
+.barra_cantidad
+{
+    font-size: 10pt;
+}
+
+.d_p
+{
+    margin-top: 16px;
+    font-size: 10pt;
+}
+
+.fondo_compra
+{
+    background-color: #fff;
+}
+
+.opciones_check
+{
+    font-size: 12.5pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.opciones_check_dos
+{
+    font-size: 12.5pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 6px;
+}
+
+.opciones_resumen
+{
+    font-size: 13pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 12px;
+}
+
+.opciones_resumen_dos
+{
+    font-size: 13pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.row_boton
+{
+    margin-left: 0px;
+}
+
+.texto_boton_pago
+{
+    font-size: 14pt;
+    border-color: #E74228;
+    background-color: #fff;
+    color: #E74228;
+}
+
+.texto_boton_pago:hover
+{
+    border-color: #E74228;
+    background-color: #E74228;
+    color: #fff;
+}
+
+/*Modal Productos*/
+.header_modal_productos
+{
+    background-color: #8B0006;
+    color: #fff;
+}
+
+.titulo_modal
+{
+    font-size: 15pt;
+}
+
+.imagen_producto_modal
+{
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.categoria_producto_modal
+{
+    margin-top: 10px;
+    color: #0254EB;
+    font-size: 14pt;
+}
+
+.nombre_producto_modal
+{
+    font-size: 12pt;
+}
+
+.precio_producto_modal
+{
+    margin-top: 10px;
+    font-size: 14pt;
+}
+
+.descripcion_producto_modal
+{
+font-size: 12pt;
+}
+
+
+
+/*Pagina Productos No Encontrados*/
+.lupa
+{
+    max-width: 120px;
+    max-height: 120px;
+    filter: opacity(40%);
+}
+
+.mensaje_no_encontrado
+{
+    color: #999;
+    font-size: 14pt ;
+}
+
+/*Envios*/
+.opciones_envios
+{
+    padding: 10px;
+    padding-bottom: 0%;
+}
+
+.opciones
+{
+    margin-bottom: 5px;
+}
+
+.contenedores_form
+{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.conf_labels
+{
+    margin-bottom: 10px;
+    max-height: 60px;
+}

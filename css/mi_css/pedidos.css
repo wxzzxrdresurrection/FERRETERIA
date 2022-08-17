@@ -1,0 +1,136 @@
+.container
+{
+    margin-top: 20px;
+}
+
+.mensaje_arriba
+{
+    font-size: 19.8pt;
+}
+
+.barras_mensaje
+{
+    margin-top: 5px;
+}
+
+.pedidos_entregados
+{
+    margin-top: 80px;
+}
+
+.contenedor_pedidos_entregados
+{
+    background-color: #EBEBEB;
+    padding-top: 10px;
+}
+
+.producto_carrito
+{
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0%;
+    margin-bottom: 10px;
+}
+
+.imagen_producto
+{
+    max-width: 120px;
+    max-height: 120px;
+    margin-left: -12px;
+}
+
+.info_producto
+{
+    margin-left: 30px;
+}
+
+.n_p
+{
+    margin-top: 10px;
+    font-size: 15pt;
+}
+
+.l_p
+{
+    font-size: 12pt;
+}
+
+.i_p
+{
+    font-size: 10pt;
+}
+
+.d_p
+{
+    font-size: 11pt;
+    margin-top: 39px;
+}
+
+
+
+/*Modal*/
+.header_detalles
+{
+    background-color: #8B0006;
+    color: #fff;
+}
+
+.productos
+{
+    background-color: #fff;
+    margin: 10px;
+}
+
+.imagen_productos
+{
+    max-width: 80px;
+    max-height: 80px;
+    margin-left: -12px;
+}
+
+.info_producto_carrito
+{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.nombre_producto
+{
+    font-size: 14pt;
+}
+
+.barra_baja
+{
+    margin-top: 8px;
+}
+
+.precio_total
+{
+    font-size: 13pt;
+}
+
+.barra_cantidad
+{
+    font-size: 10pt;
+}
+
+.d_p
+{
+    margin-top: 16px;
+    font-size: 10pt;
+}
+
+/*Pagina Productos No Encontrados*/
+.lupa
+{
+    max-width: 120px;
+    max-height: 120px;
+    filter: opacity(40%);
+}
+
+.mensaje_no_encontrado
+{
+    color: #999;
+    font-size: 14pt ;
+}

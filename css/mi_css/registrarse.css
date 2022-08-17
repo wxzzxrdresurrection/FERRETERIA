@@ -1,0 +1,49 @@
+.container
+{
+    margin-top: 10px;
+}
+
+.mensaje_arriba
+{
+    font-size: 19.8pt;
+}
+
+.barras_mensaje
+{
+    margin-top: 5px;
+}
+
+.contenedores_form
+{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.conf_labels
+{
+    margin-bottom: 10px;
+    max-height: 60px;
+}
+
+#ayuda_email
+{
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.boton_cc
+{
+    border-color: #E74228;
+    border-width: 2px;
+    font-size: 12pt;
+    color: #E74228;
+}
+
+.boton_cc:hover
+{
+    border-color: #E74228;
+    background-color: #E74228;
+    border-width: 2px;
+    font-size: 12pt;
+    color: #fff;
+}

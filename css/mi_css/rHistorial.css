@@ -1,0 +1,204 @@
+nav
+{
+    background-color: #272D33;
+    min-height: 900px;
+}
+
+.titulo
+{
+    font-size: 22pt;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.foto_perfil
+{
+    max-width: 120px;
+    max-height: 120px;
+    margin-top: 10px;
+}
+
+.items
+{
+    color: #fff;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+.link_drop
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sep_hr
+{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.mensaje
+{
+    margin-top: 20px;
+}
+
+.mensaje_arriba
+{
+    font-size: 26pt;
+}
+
+.barras_mensaje
+{
+    margin-top: 12px;
+}
+
+
+
+/*Pedidos*/
+.cuadros
+{
+    min-height: 900px;
+}
+
+.cuadros_pedidos
+{
+    margin-top: 10px;
+}
+
+.info_pedidos
+{
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.num_pedido
+{
+    color: #0254EB;
+    font-size: 18pt;
+}
+
+.persona_pedido
+{
+    font-size: 16pt;
+}
+
+.contenedor_boton
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.boton-informacion
+{
+    border-color: #0254EB;
+    border-width: 2px;
+    font-size: 16px;
+    color: #0254EB;
+    margin-bottom: 10px;
+}
+
+.boton-informacion:hover
+{
+    border-color: #0254EB;
+    background-color: #0254EB;
+    border-width: 2px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/*Modals*/
+.header_modal
+{
+    background-color: #272D33;
+    color: #fff;
+}
+
+.boton_cancelar
+{
+    border-color: #C7000D;
+    border-width: 2px;
+    color: #C7000D;
+}
+
+.boton_cancelar:hover
+{
+    border-color: #C7000D;
+    background-color: #C7000D;
+    border-width: 2px;
+    color: #fff;
+}
+
+.boton_activar
+{
+    border-color: #0254EB;
+    border-width: 2px;
+    color: #0254EB;
+}
+
+.boton_activar:hover
+{
+    border-color: #0254EB;
+    background-color: #0254EB;
+    border-width: 2px;
+    color: #fff;
+}
+
+.productos
+{
+    background-color: #fff;
+    margin: 10px;
+}
+
+.imagen_productos
+{
+    max-width: 80px;
+    max-height: 80px;
+    margin-left: -12px;
+}
+
+.info_producto_carrito
+{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.nombre_producto
+{
+    font-size: 14pt;
+}
+
+.barra_baja
+{
+    margin-top: 8px;
+}
+
+.precio_total
+{
+    font-size: 13pt;
+}
+
+.barra_cantidad
+{
+    font-size: 10pt;
+}
+
+.d_p
+{
+    margin-top: 16px;
+    font-size: 10pt;
+}
+
+.info_cliente_modal
+{
+    font-size: 14pt;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 0%;
+}
+
+.info_cliente_modal_lab
+{
+    margin-bottom: 5px;
+}
