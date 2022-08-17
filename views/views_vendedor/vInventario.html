@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/mi_css/vInventario.css">
+    <title>Inventario - Repartidor</title>
+</head>
+<body>
+    <div class="row">
+        <!--Barra-->
+        <nav class="col-2">
+            <div class="container d-flex flex-column">
+
+              <!--Repartidores-->
+              <div class="text-center titulo">Vendedores</div>
+              <div class="text-center">
+                <img src="../../svg/facebook.svg" alt="" class="border border-2 rounded-circle foto_perfil">
+              </div>
+
+              <hr class="text-white">
+
+              <!--Botones paginas-->
+              <ul class="nav nav-pills row text-center justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link    items" aria-current="page" href="../../views/views_vendedor/vVentas.html">Ventas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active    items" href="../../views/views_vendedor/vInventario.html">Inventario</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link    items" href="../../views/views_vendedor/vHistorial.html">Historial de Ventas</a>
+                </li>
+              </ul>
+
+              <hr class="text-white">
+
+              <!--Configuracion-->
+              <div class="text-center">
+                <div class="dropdown dropdown-center">
+                  <a class="nav-item dropdown-toggle link_drop" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Configuracion</a>
+                
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li style="margin-bottom: 10px;"><a class="dropdown-item" href="../../views/views_vendedor/vAjustes.html">Ajustes</a></li>
+                    <li><hr class="sep_hr"></li>
+                    <li style="margin-top: 10px;"><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </nav>
+
+        <!--Info Pedidos-->
+        <main class="col-10 border">
+            <div class="container   contenedor">
+              <div class="titulo_contenedor"><b>Inventario</b></div>
+
+              <form action="">
+                <div class="filtros_contenedor"><b>Filtros de Busqueda</b></div>
+
+                <!--Selects-->
+                <!--Fila 1-->
+                <div class="row mb-2">
+                  <!--Buscar por Nombre-->
+                  <div class="col">
+                    <label class="form-label" for="b_nombre"><b>Buscar por Nombre</b></label>
+                    <div class="row">
+                      <div class="col-5">
+                        <input class="form-control form-control-sm" type="text" id="b_nombre" placeholder="Ingresa el Nombre del Producto">
+                      </div>
+
+                      <!--Boton-->
+                      <div class="col-2 row">
+                        <button class="btn btn-sm   boton_buscar" type="button">
+                          Buscar Producto
+                        </button>
+                      </div>  
+                  </div>
+                  </div>
+
+                  
+                </div>
+
+                <hr style="width: 90%;">
+
+                <!--Fila 2-->
+                <div class="row">
+                  <!--Ordenar-->
+                  <div class="col-5">
+                    <select name="filtros_de_busqueda" class="form-select form-select-sm     select_filtros" aria-label="Default select example">
+                      <option value="1">Todos los productos</option>
+                      <option value="2">Ordenar de la A a la Z</option>
+                      <option value="3">Ordenar de la Z a la A</option>
+                      <option value="4">De Mayor a Menor Cantidad</option>
+                      <option value="5">De Menor a Mayor Cantidad</option>
+                    </select>
+                  </div>
+
+                  <!--Categorias-->
+                  <div class="col-5">
+                    <select name="filtros_de_busqueda" class="form-select form-select-sm     select_filtros" aria-label="Default select example">
+                      <option value="1">Todas las Categorias</option>
+                      <option value="2">Herramientas</option>
+                      <option value="3">Union</option>
+                      <option value="4">Medicion</option>
+                      <option value="5">Construccion</option>
+                      <option value="6">Tuberias</option>
+                      <option value="7">Alumbrado</option>
+                      <option value="8">Proteccion</option>
+                      <option value="9">Limpieza</option>
+                      <option value="10">Pintura</option>
+                      <option value="11">Componentes Diversos</option>
+                    </select>
+                  </div>
+
+                  <!--Boton-->
+                  <div class="col-2 row">
+                    <button class="btn btn-sm   boton_buscar" type="button">
+                      Filtrar Resultados
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              <hr>
+
+              <!--Tabla Inventario-->
+              <table class="table table-bordered">
+                <thead>
+                  <tr class="table-dark">
+                    <th scope="col">Foto</th>
+                    <th scope="col">Nombre del Producto</th>
+                    <th scope="col">Categoria</th>
+                    <th scope="col">Canitidad</th>
+                    <th scope="col">Faltantes</th>
+                    <th scope="col">Precio</th>
+                  </tr>
+
+                  <tr style="vertical-align: middle;">
+                    <td class="text-center" style="padding: 0%;">
+                      <img src="../../svg/facebook.svg" alt="" style="max-width: 60px;">
+                    </td>
+                    <td>#LENTES DE SEGURIDAD TRANPARENTES DE SOBREPONER *TRUPER* MODELO 14308</td>
+                    <td>#Seguridad</td>
+                    <td class="text-center">#12</td>
+                    <td class="text-center">#20</td>
+                    <td class="text-center">#$49</td>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+        </main>
+    </div>
+</body>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/bootstrap.bundle.js"></script>
+</html>
